@@ -59,9 +59,9 @@ $d.ajax({
 ```
 
 
-#### `DOMNodeCollection.prototype` methods
+### `DOMNodeCollection.prototype` methods
 
-##### `html`
+#### `html`
 * `html` can act as a getter or setter method depending on if it receives an optional string argument
 * Without argument: it acts as a getter and returns the `innerHTML` of the first node
 * With argument: it acts as a setter and the string will be set as the `innerHTML` of each node
