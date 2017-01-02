@@ -1,6 +1,14 @@
 ## kingDOM
 
-A lightweight library to manage core DOM functionality.  Features include DOM manipulation, DOM traversal, event handling, and the creation of AJAX requests with promises. 
+A lightweight library to manage core DOM functionality.  Features include DOM manipulation, DOM traversal, event handling, and the creation of AJAX requests with promises.
+
+### Usage
+
+1. Download the project files in `./kingDOM/lib` and place them in your project directory.
+2. Require kingDOM in any files you need to manipulate the DOM
+``` javascript
+const $d = require('./../kingDOM/lib/main')
+```
 
 ### Methods
 
