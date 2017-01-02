@@ -7,7 +7,7 @@ A lightweight library to manage core DOM functionality.  Features include DOM ma
 1. Download the project files in `./kingDOM/lib` and place them in your project directory.
 2. Require kingDOM in any files you need to manipulate the DOM
 ``` javascript
-const $d = require('./../kingDOM/lib/main')
+const $d = require('./../kingDOM/lib/kingDOM')
 ```
 
 ### Methods
