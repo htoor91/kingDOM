@@ -1,8 +1,8 @@
 module.exports = {
-  entry: "./lib/main.js",
+  entry: "./lib/kingDOM.js",
   output: {
     path: __dirname,
-    filename: "kingDOM.js"
+    filename: "bundle.js"
 	},
 	devtool: "source-map"
 };
