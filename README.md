@@ -1,4 +1,4 @@
-## DOMQuery
+## kingDOM
 
 A lightweight library to manage core DOM functionality.  Features include DOM manipulation, DOM traversal, event handling, and the creation of AJAX requests with promises. Cross-browser compatibility is ensured through the use of the native DOM API.
 
@@ -70,7 +70,7 @@ $d.ajax({
 * Empties out or clears all nodes in the node collection
 
 #### `append`
-* Accepts a DOMquery wrapped collection, an HTML element, or a string
+* Accepts a kingDOM wrapped collection, an HTML element, or a string
 * Appends the `outerHTML` of each element in argument to `innerHTML` of each element in the node collection
 
 #### `attr`
