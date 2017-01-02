@@ -1,6 +1,6 @@
 ## kingDOM
 
-A lightweight library to manage core DOM functionality.  Features include DOM manipulation, DOM traversal, event handling, and the creation of AJAX requests with promises. Cross-browser compatibility is ensured through the use of the native DOM API.
+A lightweight library to manage core DOM functionality.  Features include DOM manipulation, DOM traversal, event handling, and the creation of AJAX requests with promises. 
 
 ### Methods
 
