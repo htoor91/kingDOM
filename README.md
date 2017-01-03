@@ -105,6 +105,9 @@ $d.ajax({
 * Removes the html of all the nodes in the collection from the DOM
 * Also removes all of the nodes from the node collection
 
+#### `eq`
+* Reduces the set of matched elements to the one at the index that is passed in
+
 #### `on`
 * Accepts an event and a callback and adds the event handler from every element in the node collection
 * Saves the callback to a key on the node for easier removal on `off`
