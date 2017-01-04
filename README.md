@@ -115,3 +115,14 @@ $d.ajax({
 #### `off`
 * Accepts an event and removes the event handler from every element in the node collection
 * Doesn't require the user to pass in a callback, since the callback will be saved on any particular node's keys
+
+### Sample Project
+
+![main](images/snake-shot.png)
+
+* Simple rendition of snake with DOM manipulation handled by kingDOM
+* Live version: [Snake][Snake]
+* Repo: [Code][Code]
+
+[Snake]: http://htoor91.github.io/kingDOM-demo
+[Code]: http://github.com/htoor91/kingDOM-demo
