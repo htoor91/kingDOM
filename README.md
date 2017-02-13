@@ -33,7 +33,9 @@ const $divs = $d("div");
 $d can accept function arguments and will only trigger them once the document is ready. If the document is not ready, it pushes the functions into a queue.  All functions in the queue will then trigger once the document is ready.
 ``` javascript
 // Triggers popup only when the document is fully loaded
-$d(alert("Document is now ready"));
+$d(function() {
+  alert("Document is now ready");
+});
 ```
 $d can make AJAX calls with Promise functionality.
 ``` javascript
@@ -66,6 +68,11 @@ $d.ajax({
 
 ```
 
+$d(arg) returns a `DOMNodeCollection`
+
+### `DOMNodeCollection`
+
+A collection of DOM Nodes that can be manipulated, traversed, etc.  Receives `HTMLElements` and the methods are applied to every node in the internal array.
 
 ### `DOMNodeCollection.prototype` methods
 
@@ -115,14 +122,3 @@ $d.ajax({
 #### `off`
 * Accepts an event and removes the event handler from every element in the node collection
 * Doesn't require the user to pass in a callback, since the callback will be saved on any particular node's keys
-
-### Sample Project
-
-![main](images/snake-shot.png)
-
-* Simple rendition of snake with DOM manipulation handled by kingDOM
-* Live version: [Snake][Snake]
-* Repo: [Code][Code]
-
-[Snake]: http://htoor91.github.io/kingDOM-demo
-[Code]: http://github.com/htoor91/kingDOM-demo
